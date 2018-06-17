@@ -1,7 +1,9 @@
-package com.example.roompersistencelibrary.data;
+package com.example.roompersistencelibrary.source.local;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.RoomDatabase;
+
+import com.example.roompersistencelibrary.source.User;
 
 /**
  * Entities are tables in database

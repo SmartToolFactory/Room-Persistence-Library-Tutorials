@@ -1,4 +1,4 @@
-package com.example.roompersistencelibrary.data;
+package com.example.roompersistencelibrary.source;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

@@ -1,9 +1,11 @@
-package com.example.roompersistencelibrary.data;
+package com.example.roompersistencelibrary.source.local;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
+
+import com.example.roompersistencelibrary.source.User;
 
 import java.util.List;
 

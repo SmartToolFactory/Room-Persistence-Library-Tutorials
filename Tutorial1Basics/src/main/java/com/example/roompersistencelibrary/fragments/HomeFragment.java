@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.roompersistencelibrary.R;
-import com.example.roompersistencelibrary.data.AppDatabase;
-import com.example.roompersistencelibrary.data.User;
+import com.example.roompersistencelibrary.source.local.AppDatabase;
+import com.example.roompersistencelibrary.source.User;
 import com.example.roompersistencelibrary.databinding.FragmentHomeBinding;
 
 import java.util.List;
@@ -60,8 +60,7 @@ public class HomeFragment extends Fragment {
                 }
             }
         });
-        View view = binding.getRoot();
-        return view;
+        return binding.getRoot();
     }
 
 
