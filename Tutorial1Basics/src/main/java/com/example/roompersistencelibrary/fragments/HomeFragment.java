@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.roompersistencelibrary.R;
-import com.example.roompersistencelibrary.source.local.AppDatabase;
-import com.example.roompersistencelibrary.source.User;
+import com.example.roompersistencelibrary.data.AppDatabase;
+import com.example.roompersistencelibrary.data.User;
 import com.example.roompersistencelibrary.databinding.FragmentHomeBinding;
 
 import java.util.List;
@@ -19,7 +19,6 @@ import java.util.List;
 public class HomeFragment extends Fragment {
 
     private static final String DATABASE_NAME = "user_db";
-
 
     private User mUser;
 
@@ -32,11 +31,15 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        // Create binding object
         final FragmentHomeBinding binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false);
+
         mUser = new User();
         mUser.setName("No name");
         mUser.setEmail("abc@xyz.com");
         binding.setUser(mUser);
+
+        // Create Database
         final AppDatabase appDatabase = Room.databaseBuilder(getActivity().getApplicationContext(), AppDatabase.class, DATABASE_NAME)
                 .allowMainThreadQueries()
                 .build();

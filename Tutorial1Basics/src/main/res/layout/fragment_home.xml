@@ -7,7 +7,7 @@
 
         <variable
             name="user"
-            type="com.example.roompersistencelibrary.source.User" />
+            type="com.example.roompersistencelibrary.data.User" />
     </data>
 
     <android.support.constraint.ConstraintLayout

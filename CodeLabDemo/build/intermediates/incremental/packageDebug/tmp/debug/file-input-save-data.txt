@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jun 17 19:56:24 EET 2018
+0.baseType=DIRECTORY
+0.base=/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

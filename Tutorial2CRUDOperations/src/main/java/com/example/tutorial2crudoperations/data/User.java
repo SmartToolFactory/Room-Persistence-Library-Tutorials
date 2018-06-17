@@ -2,12 +2,20 @@ package com.example.tutorial2crudoperations.data;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+import android.support.annotation.NonNull;
 
 @Entity(tableName = "user")
 public class User {
 
+    @PrimaryKey(autoGenerate = true)
+    @NonNull
     @ColumnInfo(name = "id")
     private long uid;
+
+    public void setUid(@NonNull long uid) {
+        this.uid = uid;
+    }
 
     @ColumnInfo(name = "age")
     private int age;
