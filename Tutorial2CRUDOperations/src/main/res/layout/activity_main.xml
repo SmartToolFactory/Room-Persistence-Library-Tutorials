@@ -11,7 +11,7 @@
             type="com.example.tutorial2crudoperations.data.User" />
 
         <variable
-            name="handler"
+            name="handlers"
             type="com.example.tutorial2crudoperations.MainActivity.Handler"/>
     </data>
 
@@ -24,7 +24,7 @@
             android:id="@+id/tv_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text='@{user.firstName +" " + user.lastName + ", age: " + user.age}'
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -71,6 +71,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:inputType="number"
+            android:text="@={`` + user.age}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
@@ -108,7 +109,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="44dp"
             android:text="Button"
-            android:onClick="@{()->handler.onclick(user)}"
+            android:onClick="@{handlers::onButtonClick}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/et_age" />

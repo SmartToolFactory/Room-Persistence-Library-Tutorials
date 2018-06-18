@@ -115,4 +115,9 @@ public class UserLocalDataSource implements UserDataSource {
     public User findByName(String first, String last) {
         return mUserDao.findByName(first, last);
     }
+
+    @Override
+    public int deleteAll() {
+        return mUserDao.deleteAll();
+    }
 }

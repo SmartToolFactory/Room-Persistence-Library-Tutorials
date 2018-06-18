@@ -1,2 +1,2 @@
-include ':Tutorial1Basics', ':Tutorial2CRUDOperations'
+include ':Tutorial1Basics', ':Tutorial2CRUDOperations', ':Tutorial3SuperClassEntities'
 include ':CodeLabDemo'

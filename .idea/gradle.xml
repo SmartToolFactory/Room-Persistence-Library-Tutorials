@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/CodeLabDemo" />
             <option value="$PROJECT_DIR$/Tutorial1Basics" />
             <option value="$PROJECT_DIR$/Tutorial2CRUDOperations" />
+            <option value="$PROJECT_DIR$/Tutorial3SuperClassEntities" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,5 +1,7 @@
 package com.example.tutorial2crudoperations.data.source;
 
+import android.arch.persistence.room.Query;
+
 import com.example.tutorial2crudoperations.data.User;
 
 import java.util.List;
@@ -58,4 +60,7 @@ public interface UserDataSource {
 
     // Get user that contain first and last name
     User findByName(String first, String last);
+
+    // Delete every row in user table
+    int deleteAll();
 }
