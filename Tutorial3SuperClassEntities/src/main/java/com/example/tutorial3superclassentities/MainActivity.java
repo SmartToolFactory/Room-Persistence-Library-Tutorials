@@ -56,9 +56,7 @@ public class MainActivity extends AppCompatActivity {
         measurementBubbleLevel.setAngleVertical(30);
         measurementBubbleLevel.setDate(System.currentTimeMillis());
         measurementBubbleLevelDao.insert(measurementBubbleLevel);
-
-
-
+        
         List<MeasurementBubbleLevel> measurementListAnglemeter = measurementBubbleLevelDao.getAll();
         StringBuilder stringBuilder = new StringBuilder();
         if (measurementListAnglemeter != null && measurementListAnglemeter.size() > 0) {
@@ -68,7 +66,5 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(stringBuilder.toString());
         }
     }
-
-
 
 }

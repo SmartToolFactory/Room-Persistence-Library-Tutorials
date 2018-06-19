@@ -9,9 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CodeLabDemo" />
+            <option value="$PROJECT_DIR$/RoomDatabaseAndroidHive" />
             <option value="$PROJECT_DIR$/Tutorial1Basics" />
             <option value="$PROJECT_DIR$/Tutorial2CRUDOperations" />
             <option value="$PROJECT_DIR$/Tutorial3SuperClassEntities" />
+            <option value="$PROJECT_DIR$/Tutorial4MigratingDatabase" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

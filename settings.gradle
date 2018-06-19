@@ -1,2 +1,3 @@
-include ':Tutorial1Basics', ':Tutorial2CRUDOperations', ':Tutorial3SuperClassEntities'
+include ':Tutorial1Basics', ':Tutorial2CRUDOperations', ':Tutorial3SuperClassEntities', ':Tutorial4MigratingDatabase'
 include ':CodeLabDemo'
+include ':RoomDatabaseAndroidHive'
