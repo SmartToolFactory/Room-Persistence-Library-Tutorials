@@ -8,12 +8,14 @@ import android.widget.TextView;
 
 import com.example.tutorial2crudoperations.data.User;
 import com.example.tutorial2crudoperations.data.source.UserDataSource;
+import com.example.tutorial2crudoperations.data.source.UserRepository;
 import com.example.tutorial2crudoperations.data.source.local.UserDatabase;
 import com.example.tutorial2crudoperations.data.source.local.UserLocalDataSource;
 import com.example.tutorial2crudoperations.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-    private UserDataSource mUserLocalDataSource;
+
+    private UserRepository mUserRepository;
     private User mUser;
     private TextView tvSum;
 
@@ -23,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         UserDatabase userDatabase = UserDatabase.getInstance(getApplicationContext());
-        mUserLocalDataSource = UserLocalDataSource.getInstance(userDatabase.userDao());
+        UserDataSource userLocalDataSource = UserLocalDataSource.getInstance(userDatabase.userDao());
+
+        mUserRepository = UserRepository.getInstance(userLocalDataSource);
 
         mUser = new User();
         mUser.setFirstName("John");
@@ -39,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     public class Handler {
         public void onButtonClick(View view) {
-            mUserLocalDataSource.insertUser(mUser);
+            mUserRepository.insertUser(mUser);
 
-            User[] users = mUserLocalDataSource.loadAllUsersOlderThan(43);
+            User[] users = mUserRepository.loadAllUsersOlderThan(43);
             StringBuilder sb = new StringBuilder();
             sb.append("USERS\n");
             if (users != null && users.length > 0) {
@@ -52,6 +56,5 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-
+    
 }
