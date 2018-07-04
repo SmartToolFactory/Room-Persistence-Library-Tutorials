@@ -7,6 +7,8 @@ import com.example.tutorial2crudoperations.data.source.UserDataSource;
 
 import java.util.List;
 
+// TODO ADD THREADING OR CHANGE List<User> to LiveData<List<User>>
+
 public class UserLocalDataSource implements UserDataSource {
 
 

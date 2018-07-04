@@ -4,6 +4,8 @@ import com.example.tutorial2crudoperations.data.User;
 
 import java.util.List;
 
+// TODO Do User Data Caching inside this class
+
 public class UserRepository implements UserDataSource {
 
     private static UserRepository INSTANCE = null;

@@ -4,8 +4,6 @@ import com.example.tutorial2crudoperations.data.User;
 
 import java.util.List;
 
-// TODO ADD THREADING OR CHANGE List<User> to LiveData<List<User>>
-
 public interface UserDataSource {
     /*
      * INSERT
