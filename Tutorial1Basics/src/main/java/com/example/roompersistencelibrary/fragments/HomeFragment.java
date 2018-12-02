@@ -49,7 +49,6 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 long id = appDatabase.userDao().insertUser(mUser);
 
-
                 List<User> users = appDatabase.userDao().getAll();
 
                 StringBuilder sb = new StringBuilder();

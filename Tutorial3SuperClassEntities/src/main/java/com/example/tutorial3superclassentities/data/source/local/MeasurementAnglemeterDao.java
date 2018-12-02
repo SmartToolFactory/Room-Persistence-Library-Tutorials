@@ -9,6 +9,7 @@ import java.util.List;
 
 @Dao
 public interface MeasurementAnglemeterDao extends BaseDao<MeasurementAnglemeter> {
+
     @Query("SELECT * FROM table_clinometer_angle")
    List<MeasurementAnglemeter> getAll();
 
