@@ -1,11 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
     defaultConfig {
         applicationId "info.androidhive.roomdatabase"
-        minSdkVersion 16
-        targetSdkVersion 27
+
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,7 +23,6 @@ android {
 }
 
 ext {
-    supportLibraryVersion = '27.1.1'
     butterknifeVersion = '8.8.1'
     roomVersion = '1.1.0'
     lifeCycle = '1.1.1'
@@ -28,16 +30,16 @@ ext {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    implementation "com.android.support:design:$supportLibraryVersion"
-    implementation "com.android.support:support-v4:$supportLibraryVersion"
 
-    implementation "android.arch.persistence.room:runtime:$roomVersion"
-    annotationProcessor "android.arch.persistence.room:compiler:$roomVersion"
 
-    implementation "android.arch.lifecycle:extensions:$lifeCycle"
-    annotationProcessor "android.arch.lifecycle:compiler:$lifeCycle"
+    // Support
+    implementation 'com.android.support:appcompat-v7:' + rootProject.supportLibVersion
+    implementation 'com.android.support:design:' + rootProject.supportLibVersion
+    implementation 'com.android.support.constraint:constraint-layout:' + rootProject.constraintLayoutVersion
+
+    // Room
+    implementation 'android.arch.persistence.room:runtime:'+ rootProject.roomVersion
+    annotationProcessor 'android.arch.persistence.room:compiler:' + rootProject.roomVersion
 
     // butter knife
     implementation "com.jakewharton:butterknife:$butterknifeVersion"

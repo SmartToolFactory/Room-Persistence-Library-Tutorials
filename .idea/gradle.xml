@@ -3,6 +3,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -13,7 +16,10 @@
             <option value="$PROJECT_DIR$/Tutorial1Basics" />
             <option value="$PROJECT_DIR$/Tutorial2CRUDOperations" />
             <option value="$PROJECT_DIR$/Tutorial3SuperClassEntities" />
-            <option value="$PROJECT_DIR$/Tutorial4MigratingDatabase" />
+            <option value="$PROJECT_DIR$/Tutorial4-1MigratingRoom" />
+            <option value="$PROJECT_DIR$/Tutorial4-2MultipleMigrations" />
+            <option value="$PROJECT_DIR$/Tutorial4-3MigratingFromSQLiteToRoom" />
+            <option value="$PROJECT_DIR$/Tutorial5-1TableRelations" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
