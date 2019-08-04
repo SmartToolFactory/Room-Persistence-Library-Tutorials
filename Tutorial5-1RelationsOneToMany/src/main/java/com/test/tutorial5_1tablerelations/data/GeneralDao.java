@@ -13,7 +13,7 @@
 // * General Dao class to put 1 to many relation based objects.
 // *
 // * <p></p>
-// * I: type of id of objects to insert
+// * I: type of petId of objects to insert
 // * P: Parent object type, user for instance
 // * C: Child object type, pets for instance
 // */
@@ -27,10 +27,10 @@
 //    @Insert
 //    public <P extends Identifiable<Long>, C extends Identifiable<Long>> void insertParentWithChildren(P parent, List<C> children) {
 //
-//      Long id =  insert(parent);
+//      Long petId =  insert(parent);
 //
 //        for (C child : children) {
-//            child.setId(parent.getId());
+//            child.setPetId(parent.getPetId());
 //            insert(child);
 //        }
 //
@@ -41,9 +41,9 @@
 //
 //
 //    interface Identifiable<T> {
-//        T getId();
+//        T getPetId();
 //
-//        void setId(T id);
+//        void setPetId(T petId);
 //    }
 //
 //}

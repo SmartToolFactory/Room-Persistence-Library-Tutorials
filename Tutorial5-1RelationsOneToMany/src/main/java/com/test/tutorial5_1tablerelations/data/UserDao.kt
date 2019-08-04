@@ -29,9 +29,7 @@ abstract class UserDao {
     abstract fun getUserAndAllPets(): LiveData<List<UserAndAllPets>>
 
 
-    /*
-            JOIN
-     */
+
     // Transaction executes operations as a Single Atomic Operation
     // 🔥 This method should be open to work with @Transaction
     @Transaction
@@ -47,7 +45,7 @@ abstract class UserDao {
 
 
     /**
-     * JOIN query that returns pets owned by an owner with specified id
+     * JOIN query that returns pets owned by an owner with specified petId
      * @param id of the user that owns pet
      * @return pets owned by this user
      */
