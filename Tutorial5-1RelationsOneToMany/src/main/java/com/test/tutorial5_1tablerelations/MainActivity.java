@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import com.test.tutorial5_1tablerelations.fragments.HomeFragment;
 
 
+/**
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

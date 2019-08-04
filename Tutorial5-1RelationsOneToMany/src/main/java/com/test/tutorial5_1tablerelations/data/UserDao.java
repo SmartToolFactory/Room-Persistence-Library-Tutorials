@@ -1,5 +1,6 @@
 package com.test.tutorial5_1tablerelations.data;
 
+import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
@@ -18,13 +19,11 @@ public abstract class UserDao {
     @Insert
     public abstract Long insertUser(User user);
 
+    @Insert
     public abstract void insertPets(List<Pet> pets);
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     public abstract long insertPet(Pet pet);
-
-    @Insert
-    public abstract void insertAllPets(List<Pet> pets);
 
     // Transaction executes operations as a Single Atomic Operation
     @Transaction
@@ -38,13 +37,24 @@ public abstract class UserDao {
         insertPets(pets);
     }
 
-    @Query("SELECT * FROM users")
-    public abstract List<User> getAll();
 
+//    @Transaction
+//    @Query("SELECT * FROM users")
+//    public abstract List<UserAndAllPets> getUserAndAllPets();
 
     @Transaction
     @Query("SELECT * FROM users")
-    public abstract List<UserAndAllPets> getUserAndAllPets();
+    public abstract LiveData<List<UserAndAllPets>> getUserAndAllPets();
+
+
+    /**
+     * JOIN query that returns pets owned by an owner with specified id
+     * @param id of the user that owns pet
+     * @return pets owned by this user
+     */
+    @Query("SELECT * FROM pets INNER JOIN users ON users.id = pets.userId WHERE users.id LIKE :id ")
+    public abstract List<Pet> getPetsOwnedByUser(long id);
+
 
     @Delete
     abstract void delete(User user);

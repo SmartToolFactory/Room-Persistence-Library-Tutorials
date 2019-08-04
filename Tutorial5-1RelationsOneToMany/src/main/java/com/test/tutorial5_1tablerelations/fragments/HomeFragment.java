@@ -1,9 +1,11 @@
 package com.test.tutorial5_1tablerelations.fragments;
 
+import android.arch.lifecycle.Observer;
 import android.arch.persistence.room.Room;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,7 +55,6 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-
         // Create binding object
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false);
 
@@ -70,20 +71,36 @@ public class HomeFragment extends Fragment {
         // Get User DAO
         userDao = appDatabase.userDao();
 
-        binding.btnAddUser.setOnClickListener(new View.OnClickListener() {
+        binding.btnAddUser.setOnClickListener(view -> {
+
+            // Generate Random pets
+            List<Pet> pets = generateRandomPets();
+
+            // Add users and their pets to database
+            userDao.insertUserAndPets(mUser, pets);
+
+        });
+
+        binding.btnGetPets.setOnClickListener(view -> {
+            getPetsById();
+
+
+        });
+
+        return binding.getRoot();
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        // Observe changes on Database
+        userDao.getUserAndAllPets().observe(this, new Observer<List<UserAndAllPets>>() {
             @Override
-            public void onClick(View view) {
-
-                // Generate Random pets
-                List<Pet> pets = generateRandomPets();
-
-                // Add users and their pets to database
-                userDao.insertUserAndPets(mUser, pets);
-
-                getUsers(userDao);
+            public void onChanged(@Nullable List<UserAndAllPets> userAndAllPets) {
+                getUsers(userAndAllPets);
             }
         });
-        return binding.getRoot();
     }
 
     @NonNull
@@ -95,21 +112,39 @@ public class HomeFragment extends Fragment {
         int petCount = random.nextInt(3) + 1;
         for (int i = 0; i < petCount; i++) {
             Pet pet = new Pet();
-//                    pet.userId = userId;
             pet.name = petNameList.get(random.nextInt(petNameList.size()));
             pets.add(pet);
         }
         return pets;
     }
 
-    private void getUsers(UserDao userDao) {
+
+    private void getPetsById() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("*** PETS ***\n");
+
+
+        try {
+            long id = Long.parseLong(binding.etUserId.getText().toString());
+            List<Pet> pets = userDao.getPetsOwnedByUser(id);
+
+            for (Pet pet : pets) {
+                sb.append(pet.name).append("; ");
+            }
+
+        } catch (Exception e) {
+
+            sb.append(e.getMessage());
+        }
+
+        binding.tvPets.setText(sb.toString());
+    }
+
+    private void getUsers(List<UserAndAllPets> userAndAllPets) {
 
         StringBuilder sb = new StringBuilder();
 
         sb.append("*** USERS ***\n");
-
-//        List<User> users = userDao.getAll();
-        List<UserAndAllPets> userAndAllPets = userDao.getUserAndAllPets();
 
         if (userAndAllPets != null & userAndAllPets.size() > 0) {
 
