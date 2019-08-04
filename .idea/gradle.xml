@@ -3,9 +3,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -13,13 +10,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CodeLabDemo" />
             <option value="$PROJECT_DIR$/RoomDatabaseAndroidHive" />
-            <option value="$PROJECT_DIR$/Tutorial1Basics" />
-            <option value="$PROJECT_DIR$/Tutorial2CRUDOperations" />
-            <option value="$PROJECT_DIR$/Tutorial3SuperClassEntities" />
+            <option value="$PROJECT_DIR$/Tutorial1-1Basics" />
+            <option value="$PROJECT_DIR$/Tutorial2-1CRUDOperations" />
+            <option value="$PROJECT_DIR$/Tutorial3-1SuperClassEntities" />
             <option value="$PROJECT_DIR$/Tutorial4-1MigratingRoom" />
             <option value="$PROJECT_DIR$/Tutorial4-2MultipleMigrations" />
             <option value="$PROJECT_DIR$/Tutorial4-3MigratingFromSQLiteToRoom" />
-            <option value="$PROJECT_DIR$/Tutorial5-1TableRelations" />
+            <option value="$PROJECT_DIR$/Tutorial5-1RelationsOneToMany" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
