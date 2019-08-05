@@ -1,0 +1,4 @@
+#Sun Aug 04 10:55:00 EET 2019
+base.0=/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
