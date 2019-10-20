@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CodeLabDemo" />
+            <option value="$PROJECT_DIR$/External-Tutorial-Room-with-a-View" />
             <option value="$PROJECT_DIR$/RoomDatabaseAndroidHive" />
             <option value="$PROJECT_DIR$/Tutorial1-1Basics" />
             <option value="$PROJECT_DIR$/Tutorial2-1CRUDOperations" />
@@ -20,6 +21,7 @@
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

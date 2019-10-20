@@ -4,39 +4,39 @@ ADDED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Stud
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:18:1-80:12
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:18:1-80:12
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:18:1-80:12
-MERGED from [com.android.databinding:adapters:3.4.2] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/70753852eb3cccce71a20aca84dba11c/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.databinding:library:3.4.2] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6629b97f7ef9cc2417ac38d38b44c6b1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b9ada97eebc52793e10409001c578ba3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e4f9921bc4775078197a4ce2e6cdcd3c/AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/21b2d55e57b3e366f08a89e5f4ee1a04/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:17:1-30:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b068ecfe8e6d446cced5320eda2dd723/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/857f8b777b1f338d1fcc415aec3e287b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/bd2b46729c9bf5466222afd815ca85ee/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8c9296afe1e8f1cec80d9ca4aa3e63b9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/762109d5472f0071f79a19c5cbb61bc9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/81dcbddd85a005063d56435111c3dbe5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2f4116e8a03a502c35d4a9ac8fd30105/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6baac59cbe5d56d9d03ee6922275d39e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/fd74088fe081ad80d6079b287cc461db/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c8d798c0a7d57af539dc8c13fb54ed0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7598870de5be10f2cdd02c78bd0457f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4b68fc7c3d6d2c06a238f050a6d3e0f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/218a813d7a9a32d87517b406dbdedb84/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0a7b2374e1e289bdfe82544db74753ec/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4ffc9679017d6824f43f440aefa982ac/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c7797f31f3006880df814ef3ca53424/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4d4176e3ddbd7fd9a787e8c11e99d235/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/3400f27fd143fe66372cd293c3aca02e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7a389d5730383d40a304a3b2a3e5cfc3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/503fcde23d3750a226bef4ccdd08d28b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6bce59f43a66c65bcda93d0f73da2889/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/dbc32f33f615db92b407a73cc64c0a04/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/f6f6c10666cd47d67aa18e9470d543f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/76e42d922e4e8b1a8dbb4736a648b133/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/ce7a4e9d2f7e12223b465d92a061fd64/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/3435c312bdfe97373f7ddecfe97491eb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1b4258ce45203c8334d7191da320227a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.databinding:adapters:3.5.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/33d2a870613d63a49e1a3a0e770203de/adapters-3.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.5.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/136084880bd6e85b3e6de0962ac06f4b/library-3.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7d66348adeab5d11bbeac9d49fdb880e/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8574940c863b43483388d7f91ef8f8d0/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/43a1777f271be294281fb9e2fa1fec10/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/a13503194c0412cceeb578bf6c51bef5/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/93b24ff615b9d70e0a753ccbf131a1d2/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8044d69b42e91a41da25a84509c9f5d0/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/688e9fa2a673b2419da745e76f6ce5fc/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/93682cfecd937b91bb35c720a8a1f627/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/67ecdaec43fa8669ac871b09a24ece2d/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7b8bc5fb9c164f5780ae8c5aa46bba21/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/419c4767157ba7e44e0b3a776489fa37/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7aa7258a0bf0045c07b76c4bc364fa12/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/69ed81d247ce48140aac08e0ed9f390a/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/50274cce8fe28e16443a9825ed643454/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/276942530c7f432e1289ff5667bbeebe/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7d3e86c8260206defa83e6bd61985b9d/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/25b56a28b08984a48b2985851fda21a7/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/f9e2088d8e0cad6433ebb493070dd88e/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/72d2147d6f8cbae1bd9eaa9586882a47/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8d2109456572379268feb401a56438c6/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/237b1dafb22f19bca3315437ddf73ce1/db-framework-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0492755b069c4708ae82f414899f03b1/db-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/db5e7cefaa33c5088bfaf6316e206941/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e9b0b90cdfb577185a60450cc8319bfd/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/ac3f597d6f3531a0b4b320afc7f7f2b2/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b34ac7ed949612fe8c4a52b5e290d92c/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/11ecf521ee703f695a0deb66dfb53ae6/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/df7a90f35337a9f35570386cc67e8277/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8fc42a748ea869279ebb3bc5df65312e/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6f823439b174c4d703ae894a656c9a2e/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:18:1-80:12
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:18:1-80:12
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:18:1-80:12
@@ -68,16 +68,16 @@ ADDED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Stud
 		ADDED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:24:19-63
 application
 ADDED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:26:5-78:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e4f9921bc4775078197a4ce2e6cdcd3c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e4f9921bc4775078197a4ce2e6cdcd3c/AndroidManifest.xml:9:5-20
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:22:5-28:19
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:22:5-28:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0a7b2374e1e289bdfe82544db74753ec/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0a7b2374e1e289bdfe82544db74753ec/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c7797f31f3006880df814ef3ca53424/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c7797f31f3006880df814ef3ca53424/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8574940c863b43483388d7f91ef8f8d0/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8574940c863b43483388d7f91ef8f8d0/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/25b56a28b08984a48b2985851fda21a7/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/25b56a28b08984a48b2985851fda21a7/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/72d2147d6f8cbae1bd9eaa9586882a47/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/72d2147d6f8cbae1bd9eaa9586882a47/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0a7b2374e1e289bdfe82544db74753ec/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/25b56a28b08984a48b2985851fda21a7/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml:30:9-35
 	android:label
@@ -140,72 +140,72 @@ uses-sdk
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml
-MERGED from [com.android.databinding:adapters:3.4.2] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/70753852eb3cccce71a20aca84dba11c/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:adapters:3.4.2] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/70753852eb3cccce71a20aca84dba11c/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.4.2] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6629b97f7ef9cc2417ac38d38b44c6b1/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.4.2] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6629b97f7ef9cc2417ac38d38b44c6b1/AndroidManifest.xml:22:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b9ada97eebc52793e10409001c578ba3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b9ada97eebc52793e10409001c578ba3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e4f9921bc4775078197a4ce2e6cdcd3c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e4f9921bc4775078197a4ce2e6cdcd3c/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/21b2d55e57b3e366f08a89e5f4ee1a04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/21b2d55e57b3e366f08a89e5f4ee1a04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b068ecfe8e6d446cced5320eda2dd723/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b068ecfe8e6d446cced5320eda2dd723/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/857f8b777b1f338d1fcc415aec3e287b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/857f8b777b1f338d1fcc415aec3e287b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/bd2b46729c9bf5466222afd815ca85ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/bd2b46729c9bf5466222afd815ca85ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8c9296afe1e8f1cec80d9ca4aa3e63b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8c9296afe1e8f1cec80d9ca4aa3e63b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/762109d5472f0071f79a19c5cbb61bc9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/762109d5472f0071f79a19c5cbb61bc9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/81dcbddd85a005063d56435111c3dbe5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/81dcbddd85a005063d56435111c3dbe5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2f4116e8a03a502c35d4a9ac8fd30105/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2f4116e8a03a502c35d4a9ac8fd30105/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6baac59cbe5d56d9d03ee6922275d39e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6baac59cbe5d56d9d03ee6922275d39e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/fd74088fe081ad80d6079b287cc461db/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/fd74088fe081ad80d6079b287cc461db/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c8d798c0a7d57af539dc8c13fb54ed0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c8d798c0a7d57af539dc8c13fb54ed0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7598870de5be10f2cdd02c78bd0457f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7598870de5be10f2cdd02c78bd0457f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4b68fc7c3d6d2c06a238f050a6d3e0f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4b68fc7c3d6d2c06a238f050a6d3e0f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/218a813d7a9a32d87517b406dbdedb84/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/218a813d7a9a32d87517b406dbdedb84/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0a7b2374e1e289bdfe82544db74753ec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0a7b2374e1e289bdfe82544db74753ec/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4ffc9679017d6824f43f440aefa982ac/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4ffc9679017d6824f43f440aefa982ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c7797f31f3006880df814ef3ca53424/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/9c7797f31f3006880df814ef3ca53424/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4d4176e3ddbd7fd9a787e8c11e99d235/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/4d4176e3ddbd7fd9a787e8c11e99d235/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/3400f27fd143fe66372cd293c3aca02e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/3400f27fd143fe66372cd293c3aca02e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7a389d5730383d40a304a3b2a3e5cfc3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7a389d5730383d40a304a3b2a3e5cfc3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/503fcde23d3750a226bef4ccdd08d28b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/503fcde23d3750a226bef4ccdd08d28b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6bce59f43a66c65bcda93d0f73da2889/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6bce59f43a66c65bcda93d0f73da2889/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/dbc32f33f615db92b407a73cc64c0a04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/dbc32f33f615db92b407a73cc64c0a04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/f6f6c10666cd47d67aa18e9470d543f4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/f6f6c10666cd47d67aa18e9470d543f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/76e42d922e4e8b1a8dbb4736a648b133/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/76e42d922e4e8b1a8dbb4736a648b133/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/ce7a4e9d2f7e12223b465d92a061fd64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/ce7a4e9d2f7e12223b465d92a061fd64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/3435c312bdfe97373f7ddecfe97491eb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/3435c312bdfe97373f7ddecfe97491eb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1b4258ce45203c8334d7191da320227a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1b4258ce45203c8334d7191da320227a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:adapters:3.5.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/33d2a870613d63a49e1a3a0e770203de/adapters-3.5.1/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.5.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/33d2a870613d63a49e1a3a0e770203de/adapters-3.5.1/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.5.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/136084880bd6e85b3e6de0962ac06f4b/library-3.5.1/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.5.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/136084880bd6e85b3e6de0962ac06f4b/library-3.5.1/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7d66348adeab5d11bbeac9d49fdb880e/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7d66348adeab5d11bbeac9d49fdb880e/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8574940c863b43483388d7f91ef8f8d0/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8574940c863b43483388d7f91ef8f8d0/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/43a1777f271be294281fb9e2fa1fec10/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/43a1777f271be294281fb9e2fa1fec10/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/a13503194c0412cceeb578bf6c51bef5/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/a13503194c0412cceeb578bf6c51bef5/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/93b24ff615b9d70e0a753ccbf131a1d2/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/93b24ff615b9d70e0a753ccbf131a1d2/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8044d69b42e91a41da25a84509c9f5d0/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8044d69b42e91a41da25a84509c9f5d0/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/688e9fa2a673b2419da745e76f6ce5fc/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/688e9fa2a673b2419da745e76f6ce5fc/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/93682cfecd937b91bb35c720a8a1f627/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/93682cfecd937b91bb35c720a8a1f627/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/67ecdaec43fa8669ac871b09a24ece2d/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/67ecdaec43fa8669ac871b09a24ece2d/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7b8bc5fb9c164f5780ae8c5aa46bba21/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7b8bc5fb9c164f5780ae8c5aa46bba21/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/419c4767157ba7e44e0b3a776489fa37/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/419c4767157ba7e44e0b3a776489fa37/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7aa7258a0bf0045c07b76c4bc364fa12/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7aa7258a0bf0045c07b76c4bc364fa12/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/69ed81d247ce48140aac08e0ed9f390a/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/69ed81d247ce48140aac08e0ed9f390a/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/50274cce8fe28e16443a9825ed643454/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/50274cce8fe28e16443a9825ed643454/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/276942530c7f432e1289ff5667bbeebe/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/276942530c7f432e1289ff5667bbeebe/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7d3e86c8260206defa83e6bd61985b9d/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/7d3e86c8260206defa83e6bd61985b9d/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/25b56a28b08984a48b2985851fda21a7/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/25b56a28b08984a48b2985851fda21a7/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/f9e2088d8e0cad6433ebb493070dd88e/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/f9e2088d8e0cad6433ebb493070dd88e/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/72d2147d6f8cbae1bd9eaa9586882a47/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/72d2147d6f8cbae1bd9eaa9586882a47/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8d2109456572379268feb401a56438c6/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8d2109456572379268feb401a56438c6/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/237b1dafb22f19bca3315437ddf73ce1/db-framework-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/237b1dafb22f19bca3315437ddf73ce1/db-framework-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0492755b069c4708ae82f414899f03b1/db-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/0492755b069c4708ae82f414899f03b1/db-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/db5e7cefaa33c5088bfaf6316e206941/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/db5e7cefaa33c5088bfaf6316e206941/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e9b0b90cdfb577185a60450cc8319bfd/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/e9b0b90cdfb577185a60450cc8319bfd/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/ac3f597d6f3531a0b4b320afc7f7f2b2/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/ac3f597d6f3531a0b4b320afc7f7f2b2/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b34ac7ed949612fe8c4a52b5e290d92c/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/b34ac7ed949612fe8c4a52b5e290d92c/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/11ecf521ee703f695a0deb66dfb53ae6/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/11ecf521ee703f695a0deb66dfb53ae6/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/df7a90f35337a9f35570386cc67e8277/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/df7a90f35337a9f35570386cc67e8277/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8fc42a748ea869279ebb3bc5df65312e/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/8fc42a748ea869279ebb3bc5df65312e/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6f823439b174c4d703ae894a656c9a2e/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/6f823439b174c4d703ae894a656c9a2e/interpolator-28.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml
 INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -217,12 +217,12 @@ INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/S
 		ADDED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml
 		INJECTED from /Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Room Persistence Library/CodeLabDemo/src/main/AndroidManifest.xml
 provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:23:9-27:43
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:25:13-68
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:25:13-68
 	android:multiprocess
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:27:13-40
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:26:13-37
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/1fc59fb19eb4e8b24f39cb24d9a3976a/AndroidManifest.xml:24:13-83
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/smarttoolfactory/.gradle/caches/transforms-2/files-2.1/2131ea76c58add29ca80510665fec20a/extensions-1.1.1/AndroidManifest.xml:24:13-83

@@ -1,3 +1,3 @@
-include ':Tutorial1-1Basics', ':Tutorial2-1CRUDOperations', ':Tutorial3-1SuperClassEntities', ':Tutorial4-1MigratingRoom', ':Tutorial4-2MultipleMigrations', ':Tutorial4-3MigratingFromSQLiteToRoom', ':Tutorial5-1RelationsOneToMany'
+include ':Tutorial1-1Basics', ':Tutorial2-1CRUDOperations', ':Tutorial3-1SuperClassEntities', ':Tutorial4-1MigratingRoom', ':Tutorial4-2MultipleMigrations', ':Tutorial4-3MigratingFromSQLiteToRoom', ':Tutorial5-1RelationsOneToMany', ':External-Tutorial-Room-with-a-View'
 include ':CodeLabDemo'
 include ':RoomDatabaseAndroidHive'
