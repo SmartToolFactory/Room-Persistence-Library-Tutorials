@@ -1,8 +1,9 @@
 package com.test.tutorial5_1tablerelations.data
 
-import android.arch.persistence.room.ColumnInfo
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 // By default Room creates a table with class name
 @Entity(tableName = "users")

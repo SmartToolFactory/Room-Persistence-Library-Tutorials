@@ -1,7 +1,8 @@
 package com.test.tutorial5_1tablerelations.data
 
-import android.arch.persistence.room.Embedded
-import android.arch.persistence.room.Relation
+
+import androidx.room.Embedded
+import androidx.room.Relation
 
 /**
  * @Embedded tag is for having nested fields.

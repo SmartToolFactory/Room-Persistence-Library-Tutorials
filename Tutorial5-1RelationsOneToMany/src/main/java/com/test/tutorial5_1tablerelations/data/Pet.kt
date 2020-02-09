@@ -1,10 +1,11 @@
 package com.test.tutorial5_1tablerelations.data
 
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.ForeignKey
-import android.arch.persistence.room.ForeignKey.CASCADE
-import android.arch.persistence.room.Index
-import android.arch.persistence.room.PrimaryKey
+
+import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.ForeignKey.CASCADE
+import androidx.room.Index
+import androidx.room.PrimaryKey
 
 /**
  * Data class that contains [Pet] data.
@@ -13,9 +14,16 @@ import android.arch.persistence.room.PrimaryKey
  * Index let this table to be sorted by userId which makes all rows with same userId to be found faster.
  */
 
-@Entity(tableName = "pets",
-        indices = arrayOf(Index(value = ["userId"])),
-        foreignKeys = [ForeignKey(entity = User::class, parentColumns = ["id"], childColumns = ["userId"], onDelete = CASCADE)])
+@Entity(
+    tableName = "pets",
+    indices = arrayOf(Index(value = ["userId"])),
+    foreignKeys = [ForeignKey(
+        entity = User::class,
+        parentColumns = ["id"],
+        childColumns = ["userId"],
+        onDelete = CASCADE
+    )]
+)
 class Pet {
     @PrimaryKey(autoGenerate = true)
     var petId: Long = 0     // Pet petId

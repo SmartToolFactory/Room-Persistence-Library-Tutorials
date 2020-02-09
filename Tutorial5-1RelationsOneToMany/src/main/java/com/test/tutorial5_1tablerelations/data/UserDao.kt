@@ -1,7 +1,7 @@
 package com.test.tutorial5_1tablerelations.data
 
-import android.arch.lifecycle.LiveData
-import android.arch.persistence.room.*
+import androidx.lifecycle.LiveData
+import androidx.room.*
 
 
 /**
@@ -22,12 +22,12 @@ abstract class UserDao {
 
 
     /**
-     * This method uses [Embedded] and [Relation] annotations to create a class that cotains [User] and list of [Pet]s
+     * This method uses [Embedded] and [Relation] annotations to create a class that contains [User]
+     * and list of [Pet]s
      */
     @Transaction
     @Query("SELECT * FROM users")
     abstract fun getUserAndAllPets(): LiveData<List<UserAndAllPets>>
-
 
 
     // Transaction executes operations as a Single Atomic Operation

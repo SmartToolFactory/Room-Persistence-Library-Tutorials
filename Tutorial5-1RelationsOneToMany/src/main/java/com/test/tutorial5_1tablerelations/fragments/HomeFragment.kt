@@ -1,13 +1,13 @@
 package com.test.tutorial5_1tablerelations.fragments
 
-import android.arch.lifecycle.Observer
-import android.arch.persistence.room.Room
-import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.room.Room
 
 import com.test.tutorial5_1tablerelations.R
 import com.test.tutorial5_1tablerelations.data.AppDatabase
