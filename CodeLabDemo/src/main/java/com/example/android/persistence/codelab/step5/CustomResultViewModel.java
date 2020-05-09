@@ -17,10 +17,11 @@
 package com.example.android.persistence.codelab.step5;
 
 import android.app.Application;
-import android.arch.core.util.Function;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.Transformations;
+
+import androidx.arch.core.util.Function;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Transformations;
 
 import com.example.android.persistence.codelab.db.AppDatabase;
 import com.example.android.persistence.codelab.db.LoanWithUserAndBook;

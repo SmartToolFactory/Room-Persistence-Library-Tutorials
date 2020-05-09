@@ -2,12 +2,18 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "f9c15ebe1a2203fe2447ef1335619fa1",
+    "identityHash": "300144caeca37485c9fa06d4a1723727",
     "entities": [
       {
         "tableName": "table_clinometer_angle",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL, `angle` REAL NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`angle` REAL NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL)",
         "fields": [
+          {
+            "fieldPath": "angleSingle",
+            "columnName": "angle",
+            "affinity": "REAL",
+            "notNull": true
+          },
           {
             "fieldPath": "id",
             "columnName": "id",
@@ -36,12 +42,6 @@
             "fieldPath": "date",
             "columnName": "date",
             "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "angleSingle",
-            "columnName": "angle",
-            "affinity": "REAL",
             "notNull": true
           }
         ],
@@ -56,8 +56,20 @@
       },
       {
         "tableName": "table_clinometer_bubble_level",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL, `angle_horizontal` REAL NOT NULL, `angle_vertical` REAL NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`angle_horizontal` REAL NOT NULL, `angle_vertical` REAL NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL)",
         "fields": [
+          {
+            "fieldPath": "angleHorizontal",
+            "columnName": "angle_horizontal",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "angleVertical",
+            "columnName": "angle_vertical",
+            "affinity": "REAL",
+            "notNull": true
+          },
           {
             "fieldPath": "id",
             "columnName": "id",
@@ -86,18 +98,6 @@
             "fieldPath": "date",
             "columnName": "date",
             "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "angleHorizontal",
-            "columnName": "angle_horizontal",
-            "affinity": "REAL",
-            "notNull": true
-          },
-          {
-            "fieldPath": "angleVertical",
-            "columnName": "angle_vertical",
-            "affinity": "REAL",
             "notNull": true
           }
         ],
@@ -112,38 +112,8 @@
       },
       {
         "tableName": "table_laser_level_angle",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL, `bearing` TEXT, `angle` REAL NOT NULL, `azimuth` REAL NOT NULL, `pitch` REAL NOT NULL, `roll` REAL NOT NULL, `latitude` REAL NOT NULL, `longitude` REAL NOT NULL, `altitude` REAL NOT NULL, `address` TEXT)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`bearing` TEXT, `angle` REAL NOT NULL, `azimuth` REAL NOT NULL, `pitch` REAL NOT NULL, `roll` REAL NOT NULL, `latitude` REAL NOT NULL, `longitude` REAL NOT NULL, `altitude` REAL NOT NULL, `address` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL)",
         "fields": [
-          {
-            "fieldPath": "id",
-            "columnName": "id",
-            "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "title",
-            "columnName": "title",
-            "affinity": "TEXT",
-            "notNull": false
-          },
-          {
-            "fieldPath": "note",
-            "columnName": "note",
-            "affinity": "TEXT",
-            "notNull": false
-          },
-          {
-            "fieldPath": "unit",
-            "columnName": "unit",
-            "affinity": "TEXT",
-            "notNull": false
-          },
-          {
-            "fieldPath": "date",
-            "columnName": "date",
-            "affinity": "INTEGER",
-            "notNull": true
-          },
           {
             "fieldPath": "bearing",
             "columnName": "bearing",
@@ -197,21 +167,7 @@
             "columnName": "address",
             "affinity": "TEXT",
             "notNull": false
-          }
-        ],
-        "primaryKey": {
-          "columnNames": [
-            "id"
-          ],
-          "autoGenerate": true
-        },
-        "indices": [],
-        "foreignKeys": []
-      },
-      {
-        "tableName": "table_protractor",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL, `angle` REAL NOT NULL, `pitch` REAL NOT NULL, `roll` REAL NOT NULL)",
-        "fields": [
+          },
           {
             "fieldPath": "id",
             "columnName": "id",
@@ -241,7 +197,21 @@
             "columnName": "date",
             "affinity": "INTEGER",
             "notNull": true
-          },
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "table_protractor",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`angle` REAL NOT NULL, `pitch` REAL NOT NULL, `roll` REAL NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL)",
+        "fields": [
           {
             "fieldPath": "angle",
             "columnName": "angle",
@@ -259,21 +229,7 @@
             "columnName": "roll",
             "affinity": "REAL",
             "notNull": true
-          }
-        ],
-        "primaryKey": {
-          "columnNames": [
-            "id"
-          ],
-          "autoGenerate": true
-        },
-        "indices": [],
-        "foreignKeys": []
-      },
-      {
-        "tableName": "table_ruler",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL, `length` REAL NOT NULL, `width` REAL NOT NULL, `area` REAL NOT NULL)",
-        "fields": [
+          },
           {
             "fieldPath": "id",
             "columnName": "id",
@@ -303,7 +259,21 @@
             "columnName": "date",
             "affinity": "INTEGER",
             "notNull": true
-          },
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "table_ruler",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`length` REAL NOT NULL, `width` REAL NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT, `note` TEXT, `unit` TEXT, `date` INTEGER NOT NULL)",
+        "fields": [
           {
             "fieldPath": "length",
             "columnName": "length",
@@ -317,9 +287,33 @@
             "notNull": true
           },
           {
-            "fieldPath": "area",
-            "columnName": "area",
-            "affinity": "REAL",
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "note",
+            "columnName": "note",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "unit",
+            "columnName": "unit",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "INTEGER",
             "notNull": true
           }
         ],
@@ -333,9 +327,10 @@
         "foreignKeys": []
       }
     ],
+    "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"f9c15ebe1a2203fe2447ef1335619fa1\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '300144caeca37485c9fa06d4a1723727')"
     ]
   }
 }

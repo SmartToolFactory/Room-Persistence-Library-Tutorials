@@ -16,7 +16,7 @@ import androidx.room.PrimaryKey
 
 @Entity(
     tableName = "pets",
-    indices = arrayOf(Index(value = ["userId"])),
+    indices = [Index(value = ["userId"])],
     foreignKeys = [ForeignKey(
         entity = User::class,
         parentColumns = ["id"],

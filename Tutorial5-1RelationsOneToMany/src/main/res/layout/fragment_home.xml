@@ -9,7 +9,7 @@
             type="com.test.tutorial5_1tablerelations.data.User" />
     </data>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -88,9 +88,9 @@
         <TextView
             android:id="@+id/tvPets"
             android:layout_width="match_parent"
-            android:textStyle="bold"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_add_user" />
@@ -105,6 +105,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvPets" />
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

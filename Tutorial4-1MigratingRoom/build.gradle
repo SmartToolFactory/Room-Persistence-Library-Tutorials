@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
 
 android {
 
@@ -46,15 +49,26 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    // Support
-    implementation 'com.android.support:appcompat-v7:' + rootProject.supportLibVersion
-    implementation 'com.android.support.constraint:constraint-layout:' + rootProject.constraintLayoutVersion
-    
+    // AppCompat
+    implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
+    // Material
+    implementation "com.google.android.material:material:$rootProject.materialVersion"
+    // ConstraintLayout
+    implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
+    // RecyclerView
+    implementation "androidx.recyclerview:recyclerview:$rootProject.recyclerViewVersion"
+
     // Room
-    implementation 'android.arch.persistence.room:runtime:'+ rootProject.roomVersion
-    annotationProcessor 'android.arch.persistence.room:compiler:' + rootProject.roomVersion
+    implementation "androidx.room:room-runtime:$rootProject.roomVersion"
+    // For Kotlin use kapt instead of annotationProcessor
+    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation "androidx.core:core-ktx:1.2.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

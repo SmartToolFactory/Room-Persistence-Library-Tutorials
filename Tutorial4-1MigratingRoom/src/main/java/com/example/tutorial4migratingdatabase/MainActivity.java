@@ -1,9 +1,10 @@
 package com.example.tutorial4migratingdatabase;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.tutorial4migratingdatabase.db.AppDatabase;
 import com.example.tutorial4migratingdatabase.db.Student;

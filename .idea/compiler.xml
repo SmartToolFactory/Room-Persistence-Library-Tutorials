@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Room_Persistence_Library.CodeLabDemo" target="1.8" />
+      <module name="Room_Persistence_Library.External-Tutorial-Room-with-a-View" target="1.7" />
+      <module name="Room_Persistence_Library.RoomDatabaseAndroidHive" target="1.7" />
+      <module name="Room_Persistence_Library.Tutorial1-1Basics" target="1.8" />
+      <module name="Room_Persistence_Library.Tutorial2-1CRUDOperations" target="1.8" />
+      <module name="Room_Persistence_Library.Tutorial3-1SuperClassEntities" target="1.7" />
+      <module name="Room_Persistence_Library.Tutorial4-1MigratingRoom" target="1.8" />
+      <module name="Room_Persistence_Library.Tutorial4-2MultipleMigrations" target="1.7" />
+      <module name="Room_Persistence_Library.Tutorial4-3MigratingFromSQLiteToRoom" target="1.7" />
+      <module name="Room_Persistence_Library.Tutorial5-1RelationsOneToMany" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
